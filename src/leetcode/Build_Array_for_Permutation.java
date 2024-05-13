@@ -1,3 +1,5 @@
+package leetcode;
+
 public class Build_Array_for_Permutation {
 
 
