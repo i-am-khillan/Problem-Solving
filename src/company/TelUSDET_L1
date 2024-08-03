@@ -1,0 +1,48 @@
+TelUS Company
+1 Round interview Question & answer
+Introduce your self
+Find the valid links on the webPage ()
+Find the xpath on drop down on telus company{}
+Solve the below java programss
+
+find the valid links on the webpage (telus)
+
+HttpConnection connection=new HttpConnection();
+connection.connect()
+
+
+if(statusCode ==200) valid links
+
+Xpath :
+
+find the xpath of dropdown links
+//
+Write a function to find the longest common prefix string amongst an array of strings.
+if there is no common prefix, return an empty string
+
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
+
+
+Given two strings s and t, return true if s is a subsequence of t, or false otherwise.
+A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., "ace" is a subsequence of "abcde" while "aec" is not).
+
+
+ace  ----subsequnece of
+
+s1 =abcde
+{a , b, c, d , c} -- i
+
+s2="ace"  -- j
+
+if(charAt(i) ==charAt(j)) return true
+
+for(int i=0;i<s1.length();i++){
+char ch1=s1.charAt(i);
+
+	for(int j=0;j<s2.length();j++){
+		if(ch1==s2.charAt(j) return true
+ 		else false
+		}
+
+}

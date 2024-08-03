@@ -1,0 +1,68 @@
+Company Name Wipro 1. 2024
+First 1 Round
+Interview question & answers
+Introduce yourself
+Reverse the word like String s=”khillan verma”;  o/p nallihk amrev
+Which is more preferable in below statement - 1  String s= “khillan”, String s1=new String(“khillan”)”;
+More preferable
+Tell me daily activity for api automation & daily to day work
+What is serialization
+What is pojo
+Tell me about th selenium automation framework
+Validation & verification
+Data provider
+Explain the data try & catch block
+Where you can use the map in the your project
+Tell me about frequently use the selenium locator
+Take the screenshot & JavascriptExecutor
+Explain the git command.
+TestNG annotations
+How to add the library for jdbc to the project.
+Give me an important cucumber file.
+How to check the selenium alert and accept that alert
+Please write the locator for button  entire syntax
+Mostly used annotations
+Tell me about Jenkins
+What is different git fetch and git pull
+How to get the code from gitlab & modify and push the code to gitlab.
+
+Wipro L2
+Given String String =”khillan verma is lived in noida”; get find the word count using hashMap
+Store the value in the arrayList  and give me the event count using the iterator
+implicitWait and explicit wait in the both are using together is best approach
+DataType in java and give the example ans
+static int x=10;
+int y=20;
+public void car(){
+
+
+public static void main(String[] args) {
+   Engine a=new Engine();
+   a.x=999;
+   a.y=990;
+   Engine a1=new Engine();
+   System.out.println(a1.x+"__________"+a1.y);//what is output of this
+}
+
+
+
+Find the xpath of given (makemyTrip) departure 17 sept xpath.//*[@id='root']/descendant::div[@aria-label='Tue Sep 17 2024']/child::div[1]/p[1]
+When you start your day, then what you are going to do. With git commands
+What your mean by authentication
+Write the code for processing the post request.
+What is CucumberOptions importance
+Explain the your Framework
+Introduce yourself
+Where you have been used OOPs concept in your project
+Inheritances with nuance cases
+
+
+Car c=new Car(); // Parent class
+c.car();
+// c.engine(); // Not allowed for child class
+Car e=new Engine();
+e.car();
+//e.engine();// Not allowed for child class
+
+What is checked and unchecked exception in java.
+Can we override private / static /abstract method in java
