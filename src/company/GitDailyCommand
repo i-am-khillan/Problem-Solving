@@ -1,0 +1,209 @@
+As an expert in using Git commands for a Software Development Engineer in Test (SDET) role, I’ll provide a comprehensive guide on essential daily Git commands that you’ll find useful. These commands cover the fundamental operations you’ll need to manage your codebase, collaborate with your team, and maintain code quality and consistency.
+
+### Daily Git Commands for SDETs
+
+#### 1. **Setting Up and Configuring Git**
+- **Configure Git with your name and email**:
+  ```sh
+  git config --global user.name "Your Name"
+  git config --global user.email "your.email@example.com"
+  ```
+
+#### 2. **Repository Operations**
+- **Clone a repository**:
+  ```sh
+  git clone <repository-url>
+  ```
+  This command is used to clone a remote repository to your local machine.
+
+- **Check the status of your repository**:
+  ```sh
+  git status
+  ```
+  Use this command frequently to see the status of your working directory and staging area.
+
+#### 3. **Working with Branches**
+- **List all branches**:
+  ```sh
+  git branch -a
+  ```
+  This lists all local and remote branches.
+
+- **Create a new branch**:
+  ```sh
+  git checkout -b <branch-name>
+  ```
+  This creates and switches to a new branch.
+
+- **Switch to an existing branch**:
+  ```sh
+  git checkout <branch-name>
+  ```
+
+- **Delete a branch**:
+  ```sh
+  git branch -d <branch-name>
+  ```
+
+#### 4. **Staging and Committing Changes**
+- **Add changes to the staging area**:
+  ```sh
+  git add <file-name>  # Add specific file
+  git add .            # Add all changes in the current directory
+  ```
+
+- **Commit changes**:
+  ```sh
+  git commit -m "Your commit message"
+  ```
+
+- **Amend the last commit**:
+  ```sh
+  git commit --amend -m "Updated commit message"
+  ```
+
+#### 5. **Reviewing Changes**
+- **View changes in tracked files**:
+  ```sh
+  git diff
+  ```
+
+- **View changes between commits**:
+  ```sh
+  git diff <commit1> <commit2>
+  ```
+
+- **View commit history**:
+  ```sh
+  git log
+  ```
+  Add `--oneline` for a simplified view:
+  ```sh
+  git log --oneline
+  ```
+
+#### 6. **Collaborating with Others**
+- **Pull latest changes from remote repository**:
+  ```sh
+  git pull origin <branch-name>
+  ```
+
+- **Push local changes to remote repository**:
+  ```sh
+  git push origin <branch-name>
+  ```
+
+- **Fetch updates from remote (without merging)**:
+  ```sh
+  git fetch
+  ```
+
+- **Merge a branch into the current branch**:
+  ```sh
+  git merge <branch-name>
+  ```
+
+- **Rebase current branch onto another branch**:
+  ```sh
+  git rebase <branch-name>
+  ```
+
+#### 7. **Stashing Changes**
+- **Stash uncommitted changes**:
+  ```sh
+  git stash
+  ```
+
+- **Apply stashed changes**:
+  ```sh
+  git stash apply
+  ```
+
+- **List stashed changes**:
+  ```sh
+  git stash list
+  ```
+
+#### 8. **Handling Conflicts**
+- **View merge conflicts**:
+  ```sh
+  git status
+  ```
+
+- **After resolving conflicts, mark as resolved and continue merge/rebase**:
+  ```sh
+  git add <resolved-file>
+  git merge --continue
+  git rebase --continue
+  ```
+
+#### 9. **Resetting Changes**
+- **Unstage a file**:
+  ```sh
+  git reset <file-name>
+  ```
+
+- **Discard local changes to a file**:
+  ```sh
+  git checkout -- <file-name>
+  ```
+
+#### 10. **Tagging**
+- **Create a tag**:
+  ```sh
+  git tag -a v1.0 -m "Version 1.0"
+  ```
+
+- **Push tags to remote**:
+  ```sh
+  git push origin --tags
+  ```
+
+### Example Workflow for an SDET
+
+1. **Start by pulling the latest changes**:
+   ```sh
+   git pull origin main
+   ```
+
+2. **Create a new branch for your task**:
+   ```sh
+   git checkout -b feature/test-automation
+   ```
+
+3. **Make changes and add them to the staging area**:
+   ```sh
+   git add .
+   ```
+
+4. **Commit your changes with a meaningful message**:
+   ```sh
+   git commit -m "Add initial test automation scripts"
+   ```
+
+5. **Push your branch to the remote repository**:
+   ```sh
+   git push origin feature/test-automation
+   ```
+
+6. **Create a pull request (PR) and request code review**.
+
+7. **After review, merge the changes into the main branch**:
+   ```sh
+   git checkout main
+   git pull origin main
+   git merge feature/test-automation
+   ```
+
+8. **Push the updated main branch to remote**:
+   ```sh
+   git push origin main
+   ```
+
+9. **Delete the feature branch locally and remotely**:
+   ```sh
+   git branch -d feature/test-automation
+   git push origin --delete feature/test-automation
+   ```
+
+By following these daily Git commands and workflow, you can efficiently manage your codebase, collaborate with team members, and maintain high standards of code quality in your SDET role.
