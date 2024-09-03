@@ -47,6 +47,7 @@ public static void main(String[] args) {
 
 
 Find the xpath of given (makemyTrip) departure 17 sept xpath.//*[@id='root']/descendant::div[@aria-label='Tue Sep 17 2024']/child::div[1]/p[1]
+//*[contains(@aria-label,'Nov 30 2024')] //dynamic xpath
 When you start your day, then what you are going to do. With git commands
 What your mean by authentication
 Write the code for processing the post request.

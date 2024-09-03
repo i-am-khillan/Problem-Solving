@@ -11,12 +11,20 @@ public class Engine extends Car{
         System.out.println("engine");
     }
     public static void main(String[] args) {
+        //Case 1
+        Car c=new Car();
+        c.car();// only Parent data & behavior accessed
+        //Case 2
+        Car c1=new Engine();
+        c1.car();// parent hold the child object and access the child class data and methods.
+       // c1.engine();
+        //Case 3
+        Engine e=new Engine();
+        e.engine();//Only child method called
+       // System.out.println(e.engine());
+        // Case 4
+        //Engine e1=new Car(); //Not allowed
 
 
-        Engine a=new Engine();
-        a.x=999;
-        a.y=990;
-        Engine a1=new Engine();
-        System.out.println(a1.x+"__________"+a1.y);//what is output of this
     }
 }

@@ -1,0 +1,74 @@
+Selenium WebDriver automation Framework
+
+src/
+ ├── main/
+ │   ├── java/
+ │   │   ├── base/
+ │   │   │   └── BaseTest.java
+ │   │   │   └── BasePage.java
+ │   │   ├── pages/
+ │   │   │   └── LoginPage.java
+ │   │   │   └── HomePage.java
+ │   │   ├── utils/
+ │   │   │   └── DriverFactory.java
+ │   │   │   └── ConfigReader.java
+ │   │   ├── data/
+ │   │   │   └── TestData.java
+ │   │   ├── constants/
+ │   │   │   └── Constants.java
+ ├── test/
+ │   ├── java/
+ │   │   ├── testCases/
+ │   │   │   └── LoginTest.java
+ │   │   │   └── HomeTest.java
+ │   ├── resources/
+ │   │   ├── config/
+ │   │   │   └── config.properties
+ │   │   ├── testData/
+ │   │   │   └── LoginTestData.json
+ ├── lib/
+ ├── test-output/
+ ├── pom.xml
+ ├── build.gradle
+ ├── .gitignore
+ ├── log/
+
+API Automation FrameWork
+src/
+ ├── main/
+ │   ├── java/
+ │   │   ├── base/
+ │   │   │   └── BaseTest.java
+ │   │   │   └── ApiHelper.java
+ │   │   ├── utils/
+ │   │   │   └── ConfigReader.java
+ │   │   │   └── JsonUtil.java
+ │   │   ├── data/
+ │   │   └── constants/
+ │   │       └── Constants.java
+ ├── test/
+ │   ├── java/
+ │   │   ├── features/
+ │   │   │   └── UserApi.feature
+ │   │   │   └── ProductApi.feature
+ │   │   ├── stepDefinitions/
+ │   │   │   └── UserApiSteps.java
+ │   │   │   └── ProductApiSteps.java
+ │   │   ├── runners/
+ │   │   │   └── CucumberTestRunner.java
+ │   │   ├── hooks/
+ │   │   │   └── Hooks.java
+ │   │   ├── testData/
+ │   │   │   └── userTestData.json
+ │   │   │   └── productTestData.yaml
+ │   ├── resources/
+ │   │   ├── config/
+ │   │   │   └── config.properties
+ │   │   └── schemas/
+ │   │       └── userResponseSchema.json
+ ├── lib/
+ ├── target/
+ ├── test-output/
+ ├── pom.xml
+ ├── build.gradle
+ ├── .gitignore
