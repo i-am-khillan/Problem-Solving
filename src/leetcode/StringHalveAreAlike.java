@@ -10,19 +10,18 @@ Two strings are alike if they have the same number of vowels ('a', 'e', 'i', 'o'
 Return true if a and b are alike. Otherwise, return false.
     * */
     public static void main(String arg[]) {
-        String s = "book";
+        String s = "Uo";//""book";
         boolean ba = stringHalveAlike(s);
         System.out.println(ba);
     }
     public  static boolean stringHalveAlike(String s) {
     String a = "";
     String b = "";
-    for (int i = 0; i < s.length(); i++) {
-        if (s.length() / 2 == 0) {
-            a = a + s.charAt(i);
-        } else {
-            b = b + s.charAt(i);}
-    }
+
+        int mid=s.length()/2;
+        a=s.substring(0,mid);
+        b=s.substring(mid,s.length());
+
     int countA = 0;
     int countB = 0;
     for (char ca : a.toCharArray()) {
