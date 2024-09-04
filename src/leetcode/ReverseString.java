@@ -4,9 +4,9 @@ public class ReverseString {
 
         public static void main(String[] args) {
             String s = "khillan verma";
+
             System.out.println(reverseWords(s));
         }
-
         static String reverseWords(String s) {
             char[] arr = s.toCharArray();
             int n = arr.length;
@@ -15,8 +15,8 @@ public class ReverseString {
             // Traverse the array to capitalize the first letter of each word and reverse the word
             for (int i = 0; i <= n; i++) {
                 if (i == n || arr[i] == ' ') {
-                    capitalizeFirstLetter(arr, start, i - 1);  // Capitalize the first letter of the word
-                    reverse(arr, start + 1, i - 1);  // Reverse the rest of the word after capitalizing the first letter
+                    //capitalizeFirstLetter(arr, start, i - 1);  // Capitalize the first letter of the word
+                    reverse(arr, start , i - 1);  // Reverse the rest of the word after capitalizing the first letter
                     start = i + 1;  // Move to the start of the next word
                 }
             }

@@ -28,7 +28,7 @@ How to get the code from gitlab & modify and push the code to gitlab.
 
 Wipro L2
 Given String String =”khillan verma is lived in noida”; get find the word count using hashMap
-Store the value in the arrayList  and give me the event count using the iterator
+Store the value in the arrayList  and give me the even count using the iterator
 implicitWait and explicit wait in the both are using together is best approach
 DataType in java and give the example ans
 static int x=10;
