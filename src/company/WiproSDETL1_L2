@@ -85,3 +85,36 @@ explain the low severity and high priority
 cucumber options
 how to run the parallel testing in cucumbers
 what is glue
+
+SDET -L2 Wipro -- selected :12 Sept 2024
+
+introduce yourself. and Project detials.
+what is soap and how its different from Rest Assured
+Rest assured Response method you have used in your project
+what is enum in java and how its works
+Tools for rest assured you have used - rest assured and postman
+UpCasting and downCasting with example in java.
+what is inheritance in java and explain with program
+write a program for reverse the String input=I love Programming //output Programming Love I
+write what is selenium drag& drop , right click , getWindowHandles,
+there is 3 window I just want to get the text of window 2 , How to handle
+Explain Java overriding with example
+what is different bt finally , finalized , final
+why String is immutable
+why java is not supported multiple inheritance in java
+what is action classs
+what is dimaond problem
+what is selenium testng anotation
+how to run the parallel testing using BDD -with same or different data set
+Scroll down an up in selenium
+how to perform right click in selenium
+isSelected return the true and false.
+Exception in Selenium
+POM selenium framework-- explain in deteils
+Parrellel testing in
+Selenium annotation used by you.
+
+
+
+
+

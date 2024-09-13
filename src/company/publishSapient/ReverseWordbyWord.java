@@ -9,6 +9,20 @@ import static java.lang.System.out;
 
 public class ReverseWordbyWord {
     public static void main(String[] args) {
+        String sk0= "prem";
+        String sk00="prem";
+        out.println(sk0==sk0);//true
+        out.println(sk0.equals(sk00));//true
+
+        String sk2=new String("prem");
+        String sk1=new String("prem");
+        out.println(sk1==sk2);//true
+        out.println(sk1.equals(sk2));//true
+
+        StringBuilder sb1=new StringBuilder(("prem"));
+        StringBuilder sb2=new StringBuilder(("prem"));
+        out.println(sb1==sb2);//true
+        out.println(sb1.equals(sb2));//true
 
         String in="khillan verma";
         //outPut : verma khillan;
@@ -48,9 +62,9 @@ public class ReverseWordbyWord {
         // Reverse String the word by word
         // input : khillan verma
         // OutPut : nallihk amrev
-        List<Character> list=new ArrayList<>();
+
         String [] arr=s.split(" ");
-        char word=' ';
+       // char word=' ';
         StringBuilder sb=new StringBuilder();
 
         for(int i=0;i<arr.length;i++){
