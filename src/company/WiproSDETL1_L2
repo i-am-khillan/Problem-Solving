@@ -1,4 +1,5 @@
 Company Name Wipro 1. 2024
+--------------------------
 First 1 Round
 Interview question & answers
 Introduce yourself
@@ -27,6 +28,7 @@ What is different git fetch and git pull
 How to get the code from gitlab & modify and push the code to gitlab.
 
 Wipro L2
+----------------------------
 Given String String =”khillan verma is lived in noida”; get find the word count using hashMap
 Store the value in the arrayList  and give me the even count using the iterator
 implicitWait and explicit wait in the both are using together is best approach
@@ -70,25 +72,25 @@ Can we override private / static /abstract method in java
 
 
 Wipro Noida ----Greater Noida 30 August 2024
-Indroduce your self, Project , and roles and responsibilites
+--------------------------------------------
+Introduce your self, Project , and roles and responsibilities
 Reverse the string
 find the occurrence of given String
-
 Challenge of automation you have faced
 Find the xpath of make my trip https://www.makemytrip.com/  --- xpath dynamic xpath (//[contains(@id,'lst-ib')]”))
 APIs - http method 401 403 http status code and response methods
 post/get/delete
-difference between saop & rest methods
+difference between soap & rest methods
 SQL -- question
 bug life cycle
 explain the low severity and high priority
 cucumber options
 how to run the parallel testing in cucumbers
 what is glue
+-------------------------------------------------
 
 SDET -L2 Wipro -- selected :12 Sept 2024
-
-introduce yourself. and Project detials.
+introduce yourself. and Project details.
 what is soap and how its different from Rest Assured
 Rest assured Response method you have used in your project
 what is enum in java and how its works
@@ -102,19 +104,21 @@ Explain Java overriding with example
 what is different bt finally , finalized , final
 why String is immutable
 why java is not supported multiple inheritance in java
-what is action classs
-what is dimaond problem
-what is selenium testng anotation
+what is action class
+what is diamond problem
+what is selenium testng annotation
 how to run the parallel testing using BDD -with same or different data set
 Scroll down an up in selenium
 how to perform right click in selenium
 isSelected return the true and false.
 Exception in Selenium
-POM selenium framework-- explain in deteils
-Parrellel testing in
+POM selenium framework-- explain in details
+Parallel testing in
 Selenium annotation used by you.
-
-
-
-
-
+--------------------------------------------------------------------------
+Wipro Hr Interview L3 13 Sept 2024
+1. Introduce your self
+2. Tell me your skill
+3. Did you have gap in academic or professional
+4. what is your expectation in term of compansion
+5.

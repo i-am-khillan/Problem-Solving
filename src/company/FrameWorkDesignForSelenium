@@ -61,6 +61,7 @@ src/
  │   │   ├── testData/
  │   │   │   └── userTestData.json
  │   │   │   └── productTestData.yaml
+
  │   ├── resources/
  │   │   ├── config/
  │   │   │   └── config.properties

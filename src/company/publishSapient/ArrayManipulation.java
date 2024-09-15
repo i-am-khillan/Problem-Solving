@@ -1,7 +1,5 @@
 package company.publishSapient;
-
 //import java.util.Map;
-
 public class ArrayManipulation {
     public static void main(String[] args) {
         int [] arr={19,20,30,31,49,50};
@@ -17,7 +15,6 @@ public class ArrayManipulation {
 
         int minSecond= minSecondArray(arr);
         System.out.println("Min Second element of Array :"+minSecond);
-
     }
     public static int maxArray(int[] arr){
         int max=Integer.MIN_VALUE;
