@@ -3,6 +3,7 @@ package csesFi;
 public class IncreasingArray {
     public static void main(String[] args) {
         int a[]={3,2,5,1,4};
+        //
         int count=increasingArray(a);
         System.out.println(count);
     }
@@ -11,9 +12,7 @@ public class IncreasingArray {
        // int i=0;
         for(int i=1;i<arr.length;i++){
             if(arr[i]<arr[i-1]){
-
                 count+=arr[i-1]-arr[i];
-                //swap(arr,0,arr.length-1);
                 arr[i]=arr[i-1];
             }
             else {

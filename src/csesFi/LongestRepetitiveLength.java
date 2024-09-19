@@ -12,6 +12,8 @@ public class LongestRepetitiveLength {
 
     }
     public static int longestRepetitiveLeng(String s){
+        //input : "abcdddhhhh";
+        //output : 4
         int count=0;
         Map<Character,Integer>map=new HashMap<>();
 

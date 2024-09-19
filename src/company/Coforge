@@ -1,0 +1,36 @@
+Key Areas to Focus On:
+Core Java Concepts:
+
+OOP principles: inheritance, polymorphism, abstraction, and encapsulation.
+Collections framework (List, Set, Map, Queue).
+Exception handling and multi-threading.
+String manipulation, file I/O, and Java 8 features like Lambda expressions and Streams.
+Automation with Selenium:
+
+Selenium WebDriver architecture and locators (XPath, CSS selectors).
+Handling dynamic elements, waits (implicit/explicit), and browser automation.
+Writing reusable code for test automation using Selenium.
+API Testing with Rest Assured:
+
+Understanding of HTTP methods (GET, POST, PUT, DELETE).
+Validating responses using JSON/XML parsers.
+Writing automation scripts to test REST APIs using Rest Assured.
+Testing Frameworks:
+
+Knowledge of JUnit/TestNG for unit and integration tests.
+Implementing BDD with Cucumber and writing feature files.
+How to integrate test frameworks with build tools like Maven/Gradle.
+Git and Continuous Integration:
+
+Basic commands in Git (commit, push, pull, branch).
+Experience with CI/CD tools (Jenkins, GitLab CI) and integrating automated tests into pipelines.
+Problem-Solving:
+
+Be ready to solve coding challenges (like sorting algorithms, string manipulation, or finding patterns in arrays).
+Sample problem: Write a Java program to find the longest substring without repeating characters.
+Example Interview Questions:
+Java: "What are the differences between HashMap and Hashtable?"
+Selenium: "How would you handle pop-up alerts in Selenium WebDriver?"
+Rest Assured: "How do you validate the response status and content from a REST API?"
+Frameworks: "What is the role of a Page Object Model (POM) in Selenium?"
+Problem-Solving: "Write a Java program to reverse a string without using in-built functions."
