@@ -1,2 +1,5 @@
-package csesFi;public class NumberSpiral {
+package csesFi;
+
+public class NumberSpiral {
+
 }
