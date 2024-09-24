@@ -207,3 +207,69 @@ As an expert in using Git commands for a Software Development Engineer in Test (
    ```
 
 By following these daily Git commands and workflow, you can efficiently manage your codebase, collaborate with team members, and maintain high standards of code quality in your SDET role.
+
+
+Git daily Used Commands
+1. Git Configuration
+git config --global user.name "Your Name"
+oSets the username for commits.
+git config --global user.email "youremail@example.com"
+oSets the email for commits.
+2. Basic Git Commands
+git init
+oInitializes a new Git repository in the current directory.
+git clone <repository-url>
+oClones a repository from a remote location to your local machine.
+git status
+oDisplays the status of the working directory, showing changes that are staged, unstaged, and untracked.
+git add <file> / git add .
+oStages changes for the next commit. git add . stages all changes.
+git commit -m "Commit message"
+oCommits staged changes with a descriptive message.
+3. Working with Branches
+git branch
+oLists all local branches in the repository.
+git branch <branch-name>
+oCreates a new branch.
+git checkout <branch-name>
+oSwitches to the specified branch.
+git checkout -b <branch-name>
+oCreates and switches to a new branch in one step.
+git merge <branch-name>
+oMerges changes from the specified branch into the current branch.
+4. Synchronizing with Remote Repositories
+git fetch
+oFetches changes from the remote repository but doesn't merge them into your local branch.
+git pull
+oFetches and merges changes from the remote repository into your current branch.
+git push
+oPushes committed changes from your local branch to the remote repository.
+5. Undoing Changes
+git reset --soft <commit>
+oResets to the specified commit but keeps changes in the working directory and index.
+git reset --hard <commit>
+oResets to the specified commit and discards all changes.
+git stash
+oTemporarily saves changes in the working directory that are not ready to be committed.
+git stash pop
+oApplies the stashed changes back to the working directory.
+6. Viewing History
+git log
+oShows the commit history.
+git log --oneline --graph
+oShows a concise view of the commit history with a graph.
+git diff
+oShows the differences between the working directory and the index, or between two commits.
+7. Git Remote Management
+git remote -v
+oLists all remotes and their URLs.
+git remote add <name> <url>
+oAdds a new remote repository.
+
+
+
+
+
+
+
+

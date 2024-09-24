@@ -8,6 +8,7 @@ public class AnaGramString {
 
     private static boolean isAnagram(String aab, String baa) {
         int count []=new int[256];
+
         for (int i=0;i<aab.length();i++){
             (count[aab.charAt(i)])++;
             (count[baa.charAt(i)])--;
