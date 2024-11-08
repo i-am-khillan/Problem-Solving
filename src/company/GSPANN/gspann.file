@@ -1,0 +1,23 @@
+company name : gspann , L1 - failed
+1. Introduction , role and responsibility / Framework which you have worked
+2. Jenkins , used in your project
+3. Maven , important of maven
+4. hashmap and hashset
+5. 401 status code and 501 status code
+6. what is difference b/w delete , trucate / drop
+7. how to run the failed test case
+8. where you have used the hashmap in you
+9. what is motive of DBB
+10. Take the screenshot
+11. final and finally
+12. sleep and wait where we can used
+Coding question -1
+String str = "K1hi2ll3an V4er5ma6";
+o/p: 123456
+Code question 2
+int *i;
+char *c;
+float *f;
+double *d;
+
+size of  i , c , f , d .....!?

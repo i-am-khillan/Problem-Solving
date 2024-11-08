@@ -4,7 +4,7 @@ First 1 Round
 Interview question & answers
 Introduce yourself
 Reverse the word like String s=”khillan verma”;  o/p nallihk amrev
-Which is more preferable in below statement - 1  String s= “khillan”, String s1=new String(“khillan”)”;
+Which is more preferable in below statement - 1  String s= “khillan”,statement 2 String s1=new String(“khillan”)”;
 More preferable
 Tell me daily activity for api automation & daily to day work
 What is serialization
@@ -13,7 +13,7 @@ Tell me about th selenium automation framework
 Validation & verification
 Data provider
 Explain the data try & catch block
-Where you can use the map in the your project
+Where you can use the map in the your project selenium
 Tell me about frequently use the selenium locator
 Take the screenshot & JavascriptExecutor
 Explain the git command.
@@ -104,7 +104,7 @@ Explain Java overriding with example
 what is different bt finally , finalized , final
 why String is immutable
 why java is not supported multiple inheritance in java
-what is action class
+what is actions class
 what is diamond problem
 what is selenium testng annotation
 how to run the parallel testing using BDD -with same or different data set
